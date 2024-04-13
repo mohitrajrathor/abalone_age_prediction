@@ -4,14 +4,16 @@ This repository contains code and resources for training a machine learning mode
 
 ## Project Structure
 
-+-- data/
-| +-- train.csv
-| +-- test.csv
-+-- research/
-| +-- EDA.ipynb
-| +-- Regression_model.ipynb
-+-- submission/
-| +-- submission.csv
++ data/
+    - train.csv
+    - test.csv
++ research/
+    - EDA.ipynb
+    - Regression_model.ipynb
++ submission/
+    - submission.csv
++ trained_models
+    - stroed_models.pkl
 
 
 - **data/**: Contains the training and testing datasets in CSV format.
@@ -24,6 +26,8 @@ This repository contains code and resources for training a machine learning mode
   
 - **submission/**: Contains the submission file for the Kaggle competition.
   - `submission.csv`: CSV file format for submitting predictions to the Kaggle competition.
+
+- **trined_models/**: Contains the stored models for the future use.
 
 ## Kaggle Competition
 The goal of this project is to predict the age of abalones accurately. The submission file (`submission.csv`) is formatted according to the requirements of the Kaggle competition.
