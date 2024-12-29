@@ -1,15 +1,18 @@
 
 # Abalone Age Prediction
 
-This repository contains code and resources for training and deploying a machine learning model to predict the age of abalones based on various features.
+This repository contains code and resources for training and deploying a machine learning model to predict the age of abalones based on various 
+features.
+
+##### Demo Video:
+
+[![App Demo Videos](static/images/video.gif)](static/videos/app_demo_video_dummy.mp4)
 
 ##### Screenshot of the Web App
 
 ![App Screenshot](static/images/app_screenshot_dummy.png)
 
-##### Demo Video:
 
-![App Demo Videos](static/videos/app_demo_video_dummy.mp4)
 
 Click above to view the demo of the Flask app.
 
@@ -95,7 +98,7 @@ pip install -r requirements.txt
 - Navigate to the `app/` directory.
 - Run the Flask application with the following command:
   ```bash
-  python app.py
+  flask run
   ```
   This will start the web server, and you can access the app at `http://127.0.0.1:5000/`.
 
